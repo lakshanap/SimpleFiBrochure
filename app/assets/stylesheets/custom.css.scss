@@ -13,6 +13,7 @@ html {
 }
 
 body {
+  background-color: #A5D2FA;  /* color changes */
   padding-top: 60px;
 }
 
@@ -44,7 +45,9 @@ textarea {
 
 .benefit-box {
 /*  background-color: #CCF2FC; */
-  background-color: #D9F7FF;
+/*  background-color: #D9F7FF; */
+/*  background-color: #51A4ED; */
+  background-color: #CAE4FA;
   height: 120px;
 }
 
@@ -118,4 +121,9 @@ footer {
   		margin-left: 10px;
   	}
   }
+}
+
+.footer-nav {
+  background-color: $grayMediumLight;
+  min-height: 30px;
 }
