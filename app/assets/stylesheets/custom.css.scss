@@ -44,11 +44,18 @@ textarea {
 }
 
 .benefit-box {
-/*  background-color: #CCF2FC; */
-/*  background-color: #D9F7FF; */
-/*  background-color: #51A4ED; */
   background-color: #CAE4FA;
   height: 120px;
+}
+
+.box-headline {
+  font-size:1.5em;
+  font-weight:bold;
+  line-height: 1.8em;
+}
+
+.quiz-box {
+  background-color: #CAE4FA;
 }
 
 /* typography */

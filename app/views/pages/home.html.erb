@@ -7,52 +7,60 @@
 	<div class="row" style="margin-bottom:15px">
 		<div class="span4">
 			<div class="well benefit-box">
-				<div style="font-size: 1.5em; font-weight:bold;">Get educated</div>
-				<div style="height: 10px"></div>
+				<div class="box-headline">Get educated</div>
 				<p>Work through tailored lessons at your own pace.  Learn the 'magic' of the finance world
 					and take control of your future.</p>
 			</div>
 		</div>
 		<div class="span4">
 			<div class="well benefit-box">
-				<div style="font-size: 1.5em; font-weight:bold;">Get away from bad debt</div>
-				<div style="height: 10px"></div>
+				<div class="box-headline">Get away from bad debt</div>
 				<p>Refinance with smarter options to reduce your interest repayments and get out of debt faster.</p>
 			</div>
 		</div>
 		<div class="span4">
 			<div class="well benefit-box">
-				<div style="font-size: 1.5em; font-weight:bold;">Help friends and family</div>
-				<div style="height: 10px"></div>
+				<div class="box-headline">Help friends and family</div>
 				<p>Build a culture of saving and focus on wealth building.</p>
 			</div>
 		</div>
 	</div>
 	<div class="row">
-		<div class="span6 well" style="background-color:#999">
-			<img alt="SimpleFi process" src="assets/simplefi-process.png" />
-		</div>
-		<div class="span5">
-			<p>The SimpleFi Program offers organizations a differentiated employee/member benefit and a tool to help strengthen a culture of saving. The program provides members with financial education, starting from basic financial product understanding, the time value of money, on to more tax efficient saving programs available, and beyond.</p>
-			<p>We also provide incentives to start saving and subsidized funding to help get out of expensive debt.</p>
-		</div>
+		<div class="span12 center"><h3>Test your financial knowledge with this example question</h3></div>
 	</div>
 	<div class="row">
-		<div class="span12">
-			<p>For employers, we work with the HR team and payroll providers to reduce transaction costs and enhance the credit profile of the employee.</p>
-			<p>The lower cost of processing and lower cost of borrowing is passed on to member savers and borrowers as a benefit. We report to credit bureaus so that members participating in the program also can start improving their credit scores with the aim to permanently get off expensive debt.</p>
-		</div>
+		<div class="span12 center"><h4>Select which you think is cheaper</h4></div>
 	</div>
 	<div class="row">
-		<div class="span12">
-			<p>SimpleFi administers and funds the program, also providing a platform for members to help one another.</p> 
-      <p>We also place minimal burden on host organizations as we process the saving / loan requests and automate deductions and disbursements via payroll systems. We aim to help members better understand the financial services they use, get off expensive debt, and start saving more sooner.</p>
-      <p>We hope that participating employers will enjoy better productivity and retention with a financially healthier workforce and that community organizations build closer knit members as they support each other.</p>
+		<div class="row">
+			<div class="span2">&nbsp;</div>
+			<div class="span4">
+				<div id="quiz-answer1" class="well quiz-box">
+					<span class="box-headline">Interest Free Loan</span><br>
+					Loan amount: $1,000<br>
+					Monthly repayment: $200<br>
+					Upfront fee: 4% or $40<br>
+					Interest: Zero
+				</div>
+			</a>
+			</div>
+			<div class="span4">
+				<div id="quiz-answer2" class="well quiz-box">
+					<span class="box-headline">9% APR (Interest) Loan</span><br>
+					Loan amount: $1,000<br>
+					Monthly repayment: $200<br>
+					Upfront fee: $0<br>
+					Interest: 9%
+				</div>
+			</div>
+			<div class="span2">&nbsp;</div>
 		</div>
-	</div>
-	<div class="row">
 		<div class="span12" style="text-align:center">
-			  <%= link_to "Contact our sales team", contact_path, class: "btn btn-large btn-primary" %>
+			<div id="quiz-result" style="font-weight:bold; color:red;">
+			</div>
+		</div>
+		<div class="span12" style="text-align:center">
+			  <%= link_to "Contact us today to get your company on board", contact_path, class: "btn btn-large btn-primary" %>
 		</div>
 	</div>
 </div>

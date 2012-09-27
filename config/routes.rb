@@ -1,5 +1,6 @@
 SimpleFiBrochure::Application.routes.draw do
   root :to => 'pages#home'
+  match 'employer' => 'pages#employer'
   match 'about' => 'pages#about'
   match 'contact' => 'pages#contact'
 
