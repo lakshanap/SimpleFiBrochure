@@ -28,11 +28,9 @@
 	<div class="row">
 		<div class="span12 center"><h3>Test your financial knowledge with this example question</h3></div>
 	</div>
-	<div class="row">
-		<div class="span12 center"><h4>Select which you think is cheaper</h4></div>
 	</div>
 	<div class="row">
-		<div class="row">
+		<div id="lesson" class="row">
 			<div class="span2">&nbsp;</div>
 			<div class="span4">
 				<div id="quiz-answer1" class="well quiz-box">
@@ -46,7 +44,7 @@
 			</div>
 			<div class="span4">
 				<div id="quiz-answer2" class="well quiz-box">
-					<span class="box-headline">9% APR (Interest) Loan</span><br>
+					<span class="box-headline">9% Interest Loan</span><br>
 					Loan amount: $1,000<br>
 					Monthly repayment: $200<br>
 					Upfront fee: $0<br>
@@ -56,11 +54,7 @@
 			<div class="span2">&nbsp;</div>
 		</div>
 		<div class="span12" style="text-align:center">
-			<div id="quiz-result" style="font-weight:bold; color:red;">
-			</div>
-		</div>
-		<div class="span12" style="text-align:center">
-			  <%= link_to "Contact us today to get your company on board", contact_path, class: "btn btn-large btn-primary" %>
+			  <%= link_to "Contact us to get your company on board and learn more", contact_path, class: "btn btn-large btn-primary" %>
 		</div>
 	</div>
 </div>
