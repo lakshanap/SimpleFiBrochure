@@ -5,6 +5,7 @@
 $grayMediumLight: #eaeaea;
 $navLink: #777;
 $navHover: #aaa;
+$boxBackgroundColor: #CAE4FA;
 
 /* universal */
 
@@ -13,7 +14,6 @@ html {
 }
 
 body {
-  background-color: #A5D2FA;  /* color changes */
   padding-top: 60px;
 }
 
@@ -44,7 +44,7 @@ textarea {
 }
 
 .benefit-box {
-  background-color: #CAE4FA;
+  background-color: $boxBackgroundColor;
   height: 120px;
 }
 
@@ -54,8 +54,27 @@ textarea {
   line-height: 1.8em;
 }
 
-.quiz-box {
-  background-color: #CAE4FA;
+.highlight-box {
+  text-align: left;
+  background-color: $boxBackgroundColor;
+  min-height: 150px;
+}
+
+.heading-box {
+  margin-top: 20px;
+  text-align: center;
+  line-height: 1;
+  font-size: 2em;
+  background-color: $boxBackgroundColor;
+}
+
+.info-bullets {
+  font-size: 1.2em;
+}
+
+.lesson-box {
+  background-color: #4f81be;
+  min-height: 220px;
 }
 
 /* typography */

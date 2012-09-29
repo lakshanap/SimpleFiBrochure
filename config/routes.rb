@@ -3,6 +3,7 @@ SimpleFiBrochure::Application.routes.draw do
   match 'employer' => 'pages#employer'
   match 'about' => 'pages#about'
   match 'contact' => 'pages#contact'
+  match 'howitworks' => 'pages#howitworks'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

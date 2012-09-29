@@ -18,4 +18,9 @@ class PagesController < ApplicationController
     # SEO title
     @pageTitle = "Employer"
   end
+
+  def howitworks
+    # SEO title
+    @pageTitle = "How it works"
+  end
 end

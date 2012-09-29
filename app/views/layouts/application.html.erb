@@ -3,6 +3,10 @@
 <head>
   <title><%= full_title(@pageTitle) %></title>
   <%= stylesheet_link_tag    "application", :media => "all" %>
+	<link href="http://cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
+	<style type="text/css">
+		#mc_embed_signup{font:14px Helvetica,Arial,sans-serif; }
+	</style>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
   <%= render 'layouts/shim' %>
