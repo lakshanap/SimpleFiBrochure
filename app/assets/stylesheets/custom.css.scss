@@ -77,6 +77,13 @@ textarea {
   min-height: 220px;
 }
 
+.answer-text {
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 1.25em;
+  color: $grayMediumLight;
+}
+
 /* typography */
 
 h1, h2, h3, h4, h5, h6 {
