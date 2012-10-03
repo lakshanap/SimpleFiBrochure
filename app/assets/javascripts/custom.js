@@ -1,5 +1,6 @@
 $(document).ready(function(){
 	$("#transfer-table").hide();
+	$("#assistance").hide();
 
 	$("#quiz-answer1").click(function(event){
 		$("#lesson").html("");
@@ -24,5 +25,10 @@ $(document).ready(function(){
 	$("#btn-transfer-table").click(function(event){
 		$("#transfer-table").show();
 		$("#btn-transfer-table").hide();
+	});
+
+	$("#btn-assistance").click(function(event){
+		$("#assistance").show();
+		$("#btn-assistance").hide();
 	});
 });
