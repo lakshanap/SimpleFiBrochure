@@ -64,6 +64,10 @@ $(document).ready(function(){
 	}
 
 	$("#btn-calculator-result").click(function(event){
+		$("#calculator-apr").val("10.7%");
+	});
+		
+/*
 		// Retrieve field contents
 		var bValid = true;
 
@@ -74,9 +78,7 @@ $(document).ready(function(){
 		    apr = $("#calculator-apr"),
 		    allFields = $([]).add(fee).add(loanBalance).add(payment).add(interestFreePeriod).add(apr);
 
-/*
-    Validate the fields are correctly filled.
-*/
+    // Validate the fields are correctly filled.
 		bValid = bValid && checkNumericValue(fee, "Upfront Fee", 0);
 		bValid = bValid && checkNumericValue(loanBalance, "Loan Balance", 1);
 		bValid = bValid && checkNumericValue(payment, "Monthly Payment", 1);
@@ -88,7 +90,7 @@ $(document).ready(function(){
 			displayStatus("Loan Balance must be greater than Monthly Payment.");
 		}
 
-		/* By here we've validated the basic data is good for calculating */
+		// By here we've validated the basic data is good for calculating
 		if (bValid) {
 			var totalPayments = Math.round(parseInt(loanBalance.val(), 10) / parseInt(payment.val(), 10));
 			var remainingFreeInterestPeriods = parseInt(interestFreePeriod.val(), 10);
@@ -114,6 +116,7 @@ $(document).ready(function(){
 			alert("Raw cost of the loan $" + totalCostOfLoan + " via " + totalPayments + " payments.");
 		}
 	});
+		*/
 
 	$("#btn-calculator-close").click(function(event){
 		$("#calculator-form").hide();
