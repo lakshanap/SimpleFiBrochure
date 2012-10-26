@@ -11,6 +11,9 @@ $(document).ready(function(){
 		$("#quiz-btn").bind('click', function(event){
 			$("#quiz-table").html("<div class='answer-text'><img src='assets/repayment_chart.png'< /></div>");
 		});
+
+		// Analytics
+		helpers.lessonAnswerClick('One');
 	});
 
 	$("#quiz-answer2").click(function(event){
@@ -21,6 +24,9 @@ $(document).ready(function(){
 		$("#quiz-btn").bind('click', function(event){
 			$("#quiz-table").html("<div class='answer-text'><img src='assets/repayment_chart.png'< /></div>");
 		});
+
+		// Analytics
+		helpers.lessonAnswerClick('Two');
 	});
 
 	$("#btn-transfer-table").click(function(event){
