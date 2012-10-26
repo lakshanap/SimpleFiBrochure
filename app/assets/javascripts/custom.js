@@ -13,7 +13,7 @@ $(document).ready(function(){
 		});
 
 		// Analytics
-		helpers.lessonAnswerClick('One');
+		helpers.lessonAnswerClick('InterestFree');
 	});
 
 	$("#quiz-answer2").click(function(event){
@@ -26,7 +26,7 @@ $(document).ready(function(){
 		});
 
 		// Analytics
-		helpers.lessonAnswerClick('Two');
+		helpers.lessonAnswerClick('InterestLoan');
 	});
 
 	$("#btn-transfer-table").click(function(event){
